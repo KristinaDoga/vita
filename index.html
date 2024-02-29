@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>VITA</title>
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body id="body">
+   <div class="wrapper">
+
+      <header id="header" class="header">
+         <div class="container">
+            <div class="header__inner">
+               <a href="#header" class="logo">
+                  <img class="header__logo" src="images/icons/logo.svg" alt="logo">
+               </a>
+               <div class="menu__burger">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="59" height="25" viewBox="0 0 59 25" fill="none">
+                     <rect x="0.5" y="23.5" width="40" height="1" fill="#333333" stroke="#333333" />
+                     <rect x="0.5" y="0.5" width="40" height="1" fill="#333333" stroke="#333333" />
+                     <rect x="0.5" y="11.5" width="40" height="1" fill="#333333" stroke="#333333" />
+                  </svg>
+               </div>
+               <nav class="menu">
+                  <ul class="menu__list">
+                     <li class="menu__item">
+                        <a href="#body" class="menu__link">Главная</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#about" class="menu__link">О нас</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#zone" class="menu__link">Зоны</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#portfolio" class="menu__link">Портфолио</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#rules" class="menu__link">Правила</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#price" class="menu__link">Цены</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="#contact" class="menu__link">Контакты</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+
+
+      <div class="everything-except-menu">
+         <section class="home">
+            <div class="container">
+               <div class="home__content">
+                  <h1 class="home__title">vita</h1>
+                  <h2 class="home__subtitle">Фотография - это жизнь...</h2>
+                  <a href="#contact" class="home__btn default-btn ">Забронировать студию</a>
+               </div>
+            </div>
+         </section>
+         <blockquote class="blockquote">
+            «Мы делаем фотографии, чтобы понять, что значит для нас наша жизнь»
+            <span class="blockquote__author">Ральф Хаттерсли</span>
+         </blockquote>
+
+         <section id="about" class="about">
+            <div class="container">
+               <div class="about__content">
+                  <div class="about__inner">
+                     <div class="about__statistic">
+                        <h2 class="title about__title">О нас</h2>
+                        <div class="about__data">
+                           Остались довольны
+                           <span style="width: calc(100% - 99%);">99%</span>
+                        </div>
+                        <div class="about__data">
+                           Пришли во второй раз
+                           <span style="width: calc(100% - 80%);">80%</span>
+                        </div>
+                        <div class="about__data">
+                           Рекомендуют нас знакомым
+                           <span style="width: calc(100% - 85%);">85%</span>
+                        </div>
+                     </div>
+                     <div class="about__text">
+                        <p>Жить на 100%! Создавать прекрасное. Вдохновлять. Все это и многое другое мы
+                           — фотостудия VITA. В нашем портфолио большой опыт работы с крупнейшими компаниями и печатными
+                           СМИ, а также сотрудничество с известными мировыми брендами. Мы проводим рекламные и
+                           персональные
+                           съемки, смело беремся за сложные задачи и создаем невероятные проекты. Вы привыкли работать
+                           только с профессионалами, выбирать лучшее и не боитесь смелых импровизаций? Тогда мы нашли
+                           друг
+                           друга. Мы не ищем примитивных путей. Мы привыкли впечатлять наших клиентов. Мы уверены, что
+                           сможем впечатлить и Вас! </p>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+         <section id="zone" class="zone">
+            <div class="container">
+               <h2 class="zone__title title">Зоны</h2>
+               <div class="zone__top">
+                  <a class="zone__link zone__link--active" href="#light">Светлая студия</a>
+                  <a class="zone__link" href="#dark">Тёмная студия</a>
+                  <a class="zone__link" href="#aqua">Аквазона</a>
+                  <a class="zone__link" href="#holiday">Праздничная студия</a>
+                  <a class="zone__link" href="#etc">Дополнительно</a>
+               </div>
+               <div class="zone__content">
+                  <div class="zone__item zone__item--active" id="light">
+                     <p class="zone__item-text">Площадь зала 200 кв.м. Светлый, просторный
+                        интерьерный зал. Выдержан в светло-серых и бежевых оттенках. Минимализм. Фактурная стена, камни.
+                        Современная
+                        мебель.
+                        Благодаря огромным окнам этот зал нравится любителям съемок с естественным светом. Однако с
+                        использованием искусстенного света зал меняется до неузнаваемости, давая бесконечное поле для
+                        творчества.</p>
+
+                     <div class="zone-slider__inner">
+                        <div class="zone-slider__item">
+                           <img src="images/zone/light-1.jpg" alt="light">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/light-2.jpg" alt="light">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/light-3.jpg" alt="light">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/light-4.jpg" alt="light">
+                        </div>
+                     </div>
+
+
+                  </div>
+
+                  <div class="zone__item" id="dark">
+                     <p class="zone__item-text">
+                        Зал площадью 100 кв.м. Главной звездой которого стала циклорама. Зал выполнен в стиле
+                        минимализм. Геометрическая стена. Многообразие цветных холстов. Одинаково прекрасен как при
+                        естественном, так и искусственном освещении.
+                     </p>
+                     <div class="zone-slider__inner">
+                        <div class="zone-slider__item">
+                           <img src="images/zone/dark-1.jpg" alt="dark">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/dark-2.jpg" alt="dark">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/dark-3.jpg" alt="dark">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/dark-4.jpg" alt="dark">
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="zone__item" id="aqua">
+                     <p class="zone__item-text">В фотостудии смонтирована аквазона размером 3х3 метра, в черном
+                        исполнении. В аквазоне имеется 6 тропических леек и есть возможность наполнить аквазону до 15
+                        сантиметров, чтобы при желании получить гладь воды, создающих водяную стену, а также душевая
+                        лейка.
+                        Есть все необходимое оборудование для «заморозки» падающих капель, брызг, а также использование
+                        дым
+                        машины и специализированных фильтров, для того, чтобы в момент остановки времени получались
+                        эффектные кадры.</p>
+                     <div class="zone-slider__inner">
+                        <div class="zone-slider__item">
+                           <img src="images/zone/aqua-1.jpg" alt="aqua">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/aqua-2.jpg" alt="aqua">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/aqua-3.jpg" alt="aqua">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/aqua-4.jpg" alt="aqua">
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="zone__item" id="holiday">
+                     <p class="zone__item-text">Кто не любит тематические фотосессии к Новому Году, Дню Всех
+                        Влюбленных или 8 Марта? К вашим услугам зона, декорации которой мы старательно подбираем к
+                        каждому
+                        празднику. За неделю до заветной даты и неделю после неё действует скидка <span
+                           class="gold">-30%</span> на фотосессию в этой зоне. В непраздничные дни мы проводим здесь
+                        фотосессии с определённой эстетикой</p>
+                     <div class="zone-slider__inner">
+
+                        <div class="zone-slider__item">
+                           <img src="images/zone/holiday-2.jpg" alt="holiday">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/holiday-3.jpg" alt="holiday">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/holiday-4.jpg" alt="holiday">
+                        </div>
+                        <div class="zone-slider__item">
+                           <img src="images/zone/holiday-5.jpg" alt="holiday">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="zone__item" id="etc">
+                     <p class="zone__item-text">Для вашего комфорта мы арендуем парковочные места на территории здания.
+                        Для перевозки тяжелых вещей
+                        и крупногабаритных предметов, вы можете воспользоваться грузовым лифтом. Также вы можете
+                        воспользоваться просторной раздевалкой, а администратор предложит вам чай или кофе с конфетками.
+                     </p>
+
+                  </div>
+               </div>
+            </div>
+
+         </section>
+         <section class="magic">
+            <div class="container">
+               <div class="magic__content">
+                  <h2 class="magic__title title">
+                     Давайте создавать магию
+                  </h2>
+                  <div class="magic__text">
+                     <p class="magic__subtitle">Выездная фотостудия</p>
+                     <p> "Это услуга, включающая в себя работу фотографа
+                        и <span class="gold">моментальную</span> печать фотографий или магнитов. Фотосъемка
+                        осуществляется со <span class="gold">студийным</span> светом,
+                        при желании возможно нанесение логотипа или любой надписи на фотографии.</p>
+                     <p>Согласитесь, гостям мероприятия всегда приятно получать в качестве подарка фото или магнит с
+                        запечатленными эмоциями вашего праздника. Наша мобильная выездная фотостудия на мероприятие,
+                        благодаря профессиональному принтеру, сделает вам <span class="gold">качественную</span>
+                        моментальную печать фотографий,
+                        магнитов и календарей, при желании заказчика, мы можем сделать брендирование фотографий.</p>
+                     <p>Выездная фотостудия с моментальной печатью создаст приятную атмосферу, а гости
+                        будут увлечены необычной фотосессией, они непременно останутся довольны, ведь они получат фото в
+                        течение 10 минут. Процесс фотосъемки осуществляется с помощью студийного света, что позволяет
+                        получить качественные и яркие фотографии.</p>
+                     <p>Мы имеем <span class="gold">большой опыт</span> на различных мероприятиях: выставках, свадьбах,
+                        промо-акциях,
+                        презентациях. Наши специалисты - <span class="gold">профессионалы</span> своего дела, они найдут
+                        индивидуальный подход к
+                        любому гостю, а свою работу они выполняют с большим удовольствием.</p>
+                  </div>
+                  <a href="#contact" class="magic__btn default-btn ">Забронировать студию</a>
+               </div>
+            </div>
+         </section>
+
+         <section id="portfolio" class="portfolio">
+            <div class="container">
+               <div class="portfolio__header">
+                  <h2 class="portfolio__title title">
+                     Портфолио
+                  </h2>
+                  <div class="portfolio__filter">
+                     <button class="portfolio__btn" data-filter="all">Все</button>
+                     <button class="portfolio__btn" data-filter=".paired">Парные</button>
+                     <button class="portfolio__btn" data-filter=".bright">Яркие</button>
+                     <button class="portfolio__btn" data-filter=".cheeky">Дерзкие</button>
+                  </div>
+               </div>
+            </div>
+            <div class="portfolio__content">
+
+               <div class="portfolio__item mix category-all paired">
+                  <img src="images/portfolio/paired-1.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_87" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all paired">
+                  <img src="images/portfolio/paired-2.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_87" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all paired">
+                  <img src="images/portfolio/paired-3.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_87" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all paired">
+                  <img src="images/portfolio/paired-4.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_87" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+
+               <div class="portfolio__item mix category-all bright">
+                  <img src="images/portfolio/bright-1.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_81" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all bright">
+                  <img src="images/portfolio/bright-2.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_95" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all bright">
+                  <img src="images/portfolio/bright-3.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_106" class="portfolio__item-link">больше фото
+                     этой фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all bright">
+                  <img src="images/portfolio/bright-4.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_149" class="portfolio__item-link">больше фото
+                     этой фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all bright cheeky">
+                  <img src="images/portfolio/bright-5.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_151" class="portfolio__item-link">больше фото
+                     этой фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all bright cheeky">
+                  <img src="images/portfolio/bright-6.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_62" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+
+               <div class="portfolio__item mix category-all cheeky">
+                  <img src="images/portfolio/cheeky-1.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_91" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all cheeky">
+                  <img src="images/portfolio/cheeky-2.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_73" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all cheeky">
+                  <img src="images/portfolio/cheeky-3.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_78" class="portfolio__item-link">больше фото этой
+                     фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all cheeky bright">
+                  <img src="images/portfolio/cheeky-4.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_100" class="portfolio__item-link">больше фото
+                     этой фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all cheeky bright">
+                  <img src="images/portfolio/cheeky-5.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_121" class="portfolio__item-link">больше фото
+                     этой фотосессии</a>
+               </div>
+               <div class="portfolio__item mix category-all cheeky bright">
+                  <img src="images/portfolio/cheeky-6.jpg" alt="portfolio image">
+                  <a href="https://vk.com/mestokrd_vk?w=wall-196616542_134" class="portfolio__item-link">больше фото
+                     этой фотосессии</a>
+               </div>
+
+            </div>
+            <a href="https://vk.com/mestokrd_vk" class="portfolio__add default-btn">Больше проектов</a>
+
+         </section>
+         <section class="count">
+            <div class="count__numbers">
+               <div class="count__numbers-item">
+                  <img class="count__numbers-img" src="images/icons/num-clock.svg" alt="timer">
+                  <h3 class="count__numbers-num">15000+</h3>
+                  <span>Часов работы</span>
+               </div>
+               <div class="count__numbers-item">
+                  <img class="count__numbers-img" src="images/icons/num-human.svg" alt="Coffee">
+                  <h3 class="count__numbers-num">1200+</h3>
+                  <span>Клиентов</span>
+               </div>
+               <div class="count__numbers-item">
+                  <img class="count__numbers-img" src="images/icons/num-photo.svg" alt="night">
+                  <h3 class="count__numbers-num">130000+</h3>
+                  <span>Фотографий</span>
+               </div>
+            </div>
+         </section>
+         <section class="device">
+            <div class="container">
+               <h2 class="title device__title">Для Вас</h2>
+               <div class="device__inner">
+                  <ul class="device__list">
+                     <li class="device__item">Постоянные источники света: Godox SL200II, Godox SL300III, YONGNUO YN660
+                        RGB — 2 шт.</li>
+                     <li class="device__item">Импульсные источники света Godox DP600III — 2 шт, Godox DP800III </li>
+                     <li class="device__item">Разноцветные бумажные фоны: темно-серый, розовый, хаки, черный</li>
+                     <li class="device__item">Сферический октабокс Godox CS85D. Стойка журавль</li>
+                     <li class="device__item">Проекционная насадка Godox с масками гобо</li>
+                     <li class="device__item">Прямоугольный софтбокс 22×90 см — 2шт</li>
+                     <li class="device__item">Высокие потолки — 5 м. Огромное окно</li>
+                     <li class="device__item">Солнечная сторона. Шторы блэкаут</li>
+                     <li class="device__item">Октабокс 8-ми угольный — 120 см</li>
+                     <li class="device__item">Отражатель портретный 60 см</li>
+                     <li class="device__item">Рассеиватель 150×200 см</li>
+                     <li class="device__item">Гибкое зеркало серебро</li>
+                     <li class="device__item">Отражатель 100×150 см </li>
+                     <li class="device__item">Софтбокс — 60×90 см </li>
+                     <li class="device__item">Циклорама — 4×3×3 м.</li>
+                     <li class="device__item">Диско-шар 50 см</li>
+                     <li class="device__item">Отпариватель</li>
+
+                  </ul>
+                  <div class="device__video">
+                     <a data-fancybox href="https://www.youtube.com/watch?v=Q80cjPoitF4" class="device__video-link">
+                        <img src="images/icons/play.svg" alt="видео">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="rules" class="rules-slider">
+            <div class="container">
+               <h2 class="title">Правила фотостудии</h2>
+               <div class="rules-slider__inner">
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">Чистая обувь
+                     </h5>
+                     <p class="rules-slider__text">В студии вам предложат сменную обувь. Обувь с чёрной подошвой
+                        необходимо
+                        заклеить малярным скотчем. Вы можете это сделать заранее, чтобы не тратить арендное время или
+                        обратиться к администратору.</p>
+                  </div>
+
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">
+                        Bместимость студии
+                     </h5>
+                     <p class="rules-slider__text">Максимальное количество людей в каждом зале - 6 человек. Каждый
+                        последующий
+                        гость увеличивает стоимость аренды на 100 рублей в час.
+                        Учитывается количество гостей за всю съемку, в том числе меняющиеся гости. Учитываются все
+                        участники съемки (модели, фотограф, стилист, визажист и т.д).</p>
+                  </div>
+
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">
+                        Время </h5>
+                     <p class="rules-slider__text">Минимальное время аренды составляет 25 минут. Началом аренды
+                        считается
+                        заявленное время, вне зависимости от фактического времени прибытия.
+                        В зал можно зайти ровно в забронированное вами время. Если перед гостем не проводилась
+                        съемка,
+                        то не ранее чем за 5 минут до начала времени бронирования.</p>
+                  </div>
+
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">
+                        Правила поведения
+                     </h5>
+                     <p class="rules-slider__text">Распитие спиртных напитков в студии и на территории всего здания –
+                        запрещено. Курение разрешено только в отведённых для этого местах.
+                     </p>
+                  </div>
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">
+                        Оплата
+
+                     </h5>
+                     <p class="rules-slider__text">Бронирование производится только при 100% предоплате, которая должна
+                        быть
+                        внесена в течение 4-х часов с момента бронирования.
+                        В противном случае
+                        бронь аннулируется.</p>
+                  </div>
+
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">
+                        Отмена бронирования
+
+                     </h5>
+                     <p class="rules-slider__text">Бесплатная отмена бронирования или перенос времени возможны не
+                        позднее
+                        чем
+                        за 48 часов до назначенной аренды. Возврат осуществляется за вычетом 10% комиссии сервиса по
+                        приёму платежей.</p>
+                  </div>
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">
+                        Съемка с животными
+
+                     </h5>
+                     <p class="rules-slider__text">Разрешается только по согласованию
+                        с администрацией студии при бронировании.
+                        Собаки должны быть на поводке и в наморднике. Другие животные- в переноске. Перед съемкой лапки
+                        животного должны быть чистыми.</p>
+                  </div>
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">
+                        Танцы
+
+                     </h5>
+                     <p class="rules-slider__text">В фотостудии разрешены только в носках, босиком, в чешках, белых
+                        кроссовках
+                        и туфлях для латины с мягкой подошвой и силиконовой накладкой на каблучке.</p>
+                  </div>
+                  <div class="rules-slider__item">
+                     <h5 class="rules-slider__title">
+                        Запись видео
+                     </h5>
+                     <p class="rules-slider__text">
+                        Обращаем внимание, что не можем гарантировать чистый звук при записи видео, так как может идти
+                        звук из соседних помещений. Обратитесь к администратору для помощи в подборе наиболее тихого
+                        времени для аренды студии.
+                     </p>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <section class="team">
+            <div class="container">
+               <h2 class="team__title title">Наша команда</h2>
+               <div class="team__inner">
+                  <div class="team__item">
+                     <div class="team__item-img"><img src="images/team/photographer.jpg" alt="worker"></div>
+                     <p class="team__worker">МАКС<span>Фотограф</span></p>
+                  </div>
+                  <div class="team__item">
+                     <div class="team__item-img"><img src="images/team/administrator.jpg" alt="worker"></div>
+                     <p class="team__worker">АНЯ<span>Администратор</span></p>
+                  </div>
+                  <div class="team__item">
+                     <div class="team__item-img"><img src="images/team/make-up-artist.jpg" alt="worker"></div>
+                     <p class="team__worker">МИЛА<span>Визажист</span></p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="price" class="price">
+
+            <div class="container">
+               <h2 class="title price__title">Прайс-лист</h2>
+               <div class="price__inner">
+                  <div class="price__item">
+                     <div class="price__plan">Базовый</div>
+                     <div class="price__value"><sup>₽</sup>3500</div>
+                     <ul class="price__list">
+                        <li class="price__li">Любая зона на выбор</li>
+                        <li class="price__li">Фотосъемка 25 минут</li>
+                        <li class="price__li">Помощь в подготовке образа</li>
+                        <li class="price__li">Все удачные фотографии в цветокоррекции</li>
+                        <li class="price__li">5 фото в ретуши</li>
+
+                     </ul>
+                     <a class="price__btn default-btn" href="#contact">Забронировать студию</a>
+                  </div>
+                  <div class="price__item">
+                     <div class="price__plan">Стандарт</div>
+                     <div class="price__value"><sup>₽</sup>5000</div>
+
+                     <ul class="price__list">
+                        <li class="price__li">Любая зона на выбор</li>
+                        <li class="price__li">Фотосъемка 40 минут</li>
+                        <li class="price__li">Помощь в подготовке образа</li>
+                        <li class="price__li">Макияж и Укладка </li>
+                        <li class="price__li">Все удачные фотографии в цветокоррекции</li>
+                        <li class="price__li">7 фото в ретуши</li>
+                     </ul>
+                     <a class="price__btn default-btn" href="#contact">Забронировать студию</a>
+                  </div>
+                  <div class="price__item">
+                     <div class="price__plan">Всё включено</div>
+                     <div class="price__value"><sup>₽</sup>7000</div>
+
+                     <ul class="price__list">
+                        <li class="price__li">Любая зона на выбор</li>
+                        <li class="price__li">Фотосъемка 60 минут</li>
+                        <li class="price__li">Полный образ(одежда+украшения)</li>
+                        <li class="price__li">Макияж и Укладка </li>
+                        <li class="price__li">Все удачные фотографии в цветокоррекции</li>
+                        <li class="price__li">10 фото в ретуши</li>
+
+                     </ul>
+                     <a class="price__btn default-btn" href="#contact">Забронировать студию</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="clients">
+            <div class="container">
+               <h2 class="title">Наши клиенты</h2>
+               <div class="clients__inner">
+                  <div class="clients__item"> <img src="images/clients/1.png" alt="client">
+                  </div>
+                  <div class="clients__item"> <img src="images/clients/2.png" alt="client">
+                  </div>
+                  <div class="clients__item"> <img src="images/clients/3.png" alt="client">
+                  </div>
+                  <div class="clients__item"> <img src="images/clients/4.png" alt="client">
+                  </div>
+                  <div class="clients__item"> <img src="images/clients/5.png" alt="client">
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <section id="contact" class="contact">
+            <div class="container">
+               <h2 class="contact__title title">Свяжитесь с нами</h2>
+               <form action="#" class="form">
+                  <input type="text" placeholder="ИМЯ" required>
+                  <input type="text" placeholder="EMAIL" required>
+                  <textarea placeholder="ВАШЕ СООБЩЕНИЕ"></textarea>
+                  <button class="default-btn" type="submit">ОТПРАВИТЬ</button>
+               </form>
+            </div>
+         </section>
+         <footer class="footer">
+            <div class="container">
+               <div class="footer__top">
+                  <ul class="footer__list">
+                     <li class="footer__li"><a class="footer__link" href="https://twitter.com/">TWITTER</a></li>
+                     <li class="footer__li"><a class="footer__link" href="http://behance.net/">BEHANCE</a></li>
+                     <li class="footer__li"><a class="footer__link" href="http://instagram.com/">INSTAGRAM</a></li>
+                     <li class="footer__li"><a class="footer__link" href="https://dribbble.com/">DRIBBLE</a></li>
+                     <li class="footer__li"><a class="footer__link"
+                           href="https://ru.wikipedia.org/wiki/Google%2B">GOOGLE+</a>
+                     </li>
+                     <li class="footer__li"><a class="footer__link" href="http://facebook.com/">FACEBOOK</a></li>
+                  </ul>
+                  <p class="footer__copy">
+                     @2023 VITA
+                  </p>
+                  <div class="footer__inner">
+                     <p class="footer__contact">Россия, г. Краснодар, ул. Ставропольская, д. 149 </p>
+                     <p class="footer__contact"> +7 (918) 65 252 222</p>
+                     <p class="footer__contact">info@mail.com</p>
+                  </div>
+
+               </div>
+            </div>
+         </footer>
+      </div>
+   </div>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script src="js/mixitup.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
